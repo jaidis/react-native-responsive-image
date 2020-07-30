@@ -9,8 +9,8 @@ export default class ResponsiveImage extends Component {
   }
 
   render() {
-    var width = applyScale(this.props.initWidth);
-    var height = applyScale(this.props.initHeight);
+    var width = this.props.applyScale == false ? Math.ceil(this.props.initWidth * 1) : applyScale(this.props.initWidth);
+    var height = this.props.applyScale == false ? Math.ceil(this.props.initHeight * 1) : applyScale(this.props.initHeight);
     const Component = this.props.component
     return (
       <Component
@@ -25,6 +25,7 @@ export default class ResponsiveImage extends Component {
         onLoadEnd={this.props.onLoadEnd}
         defaultSource={this.props.defaultSource}
         borderRadius={this.props.borderRadius}
+        applyScale={this.props.applyScale}
       >
         {this.props.children}
       </Component>

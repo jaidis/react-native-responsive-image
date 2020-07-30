@@ -1,6 +1,6 @@
 {
-  "name": "react-native-responsive-image",
-  "version": "2.3.1",
+  "name": "@jaidis/react-native-responsive-image",
+  "version": "2.3.2",
   "description": "Image component, that resizes itself appropriately on various screensizes.",
   "main": "index.js",
   "scripts": {
@@ -8,16 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dharmoslap/react-native-responsive-images.git"
+    "url": "git+https://github.com/jaidis/react-native-responsive-image.git"
   },
   "keywords": [
     "React",
-    "Native"
+    "Native",
+    "Responsive",
+    "Image",
+    "Android",
+    "iOS"
   ],
   "author": "Ladislav Maxa <ladislavmaxa@outlook.com> (https://github.com/Dharmoslap)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Dharmoslap/react-native-responsive-images/issues"
+    "url": "https://github.com/jaidis/react-native-responsive-image/issues"
   },
-  "homepage": "https://github.com/Dharmoslap/react-native-responsive-images#readme"
+  "homepage": "https://github.com/jaidis/react-native-responsive-image#readme"
 }
