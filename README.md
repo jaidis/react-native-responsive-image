@@ -1,9 +1,9 @@
 # React Native Responsive Image
 
-[![David](https://david-dm.org/dharmoslap/react-native-responsive-image.svg)](https://david-dm.org/dharmoslap/react-native-responsive-image)
-[![npm](https://img.shields.io/npm/v/react-native-responsive-image.svg)](https://www.npmjs.com/package/react-native-responsive-image)
-[![GitHub commits](https://img.shields.io/github/commits-since/dharmoslap/react-native-responsive-image/2.1.0.svg?maxAge=2592000)]()
-[![npm](https://img.shields.io/npm/dt/react-native-responsive-image.svg?maxAge=2592000)](https://www.npmjs.com/package/react-native-responsive-image)
+[![David](https://david-dm.org/jaidis/react-native-responsive-image.svg)](https://david-dm.org/jaidis/react-native-responsive-image)
+[![npm](https://img.shields.io/npm/v/@jaidis/react-native-responsive-image.svg)](https://www.npmjs.com/package/@jaidis/react-native-responsive-image)
+[![GitHub commits](https://img.shields.io/github/commits-since/jaidis/react-native-responsive-image/2.3.0.svg?maxAge=2592000)]()
+[![npm](https://img.shields.io/npm/dt/@jaidis/react-native-responsive-image.svg?maxAge=2592000)](https://www.npmjs.com/package/@jaidis/react-native-responsive-image)
 
 ## Why?
 
@@ -11,7 +11,7 @@ React Native's Image size is rendered with the same dimensions regardless of dev
 
 ## Installation
 
-`npm install react-native-responsive-image --save`
+`npm install @jaidis/react-native-responsive-image --save`
 
 ## Usage
 
@@ -27,7 +27,7 @@ Optional prop `component` is used to pass down either an `Image` or `ImageBackgr
 ```javascript
 import React, { Component } from "react";
 import { AppRegistry, StyleSheet, View } from "react-native";
-import ResponsiveImage from "react-native-responsive-image";
+import ResponsiveImage from "@jaidis/react-native-responsive-image";
 
 class App extends Component {
   render() {
